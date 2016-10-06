@@ -2,7 +2,6 @@
 #include "insertionSort.h"
 using namespace std;
 
-
 void insertionSort::sort(){
 	int temp = 0;
 	for(int i=0;i<count;i++){
@@ -15,6 +14,7 @@ void insertionSort::sort(){
 		}
 	}
 }
+
 void insertionSort::add(){
 	int value;
 	cout << "Enter a value (-1:end) : ";
@@ -27,6 +27,7 @@ void insertionSort::add(){
 		cin >> value;		
 	}
 }
+
 void insertionSort::write(){
 	cout << "List of array : \n";
 	for(int i=0;i<count;i++){
